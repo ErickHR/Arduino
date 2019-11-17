@@ -9,9 +9,8 @@ void loop() {
   
   Serial.print(mq_135);
   Serial.print("\n");
-
-  //Serial.print(mq_2);
-  //Serial.print("\n");
   
+  Serial.write(mq_135);
+  Serial.print("\n");
   delay(1000);
 }
